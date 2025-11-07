@@ -1,3 +1,4 @@
+Test run
 <p align="center">
   <img src="./images/logo.png" alt="GitHub Actions Workshop Logo" height="128">
 </p>
