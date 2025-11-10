@@ -1,0 +1,14 @@
+name: Intro - Manual Workflow v2
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/intro-manual-workflow-v2.yml'
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: How's GitHub Actions?
+        run: echo "Awesome!! - from v2 workflow"
